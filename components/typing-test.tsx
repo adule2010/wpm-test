@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
-import { generateText, calculateWPM, calculateAccuracy, type Language, addLanguage, addWordsToLanguage, getAvailableLanguages, languages, type LanguagesType } from '@/utils/words'
+import { generateText, calculateWPM, calculateAccuracy, addLanguage, addWordsToLanguage, getAvailableLanguages, languages, type LanguagesType } from '@/utils/words'
 
 export default function TypingTest() {
   const [text, setText] = useState('')
